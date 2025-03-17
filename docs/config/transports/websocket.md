@@ -60,7 +60,9 @@ WebSocket 的HTTP请求中所发送的host，默认值为空。若服务端值�
 
 > `heartbeatPeriod`: int
 
-指定间隔固定时间发送一个 Ping message 保活连接。不指定或指定为0时不发送 Ping message，为当前默认行为。
+定期（每隔固定秒数）发送 Ping 消息以保持连接, 为0时不发送。
+
+默认值：0
 
 ## Browser Dialer
 
